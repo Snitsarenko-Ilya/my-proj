@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: flex;
+}
+.container {
+    width: 300px;
+    height: 200px;
+    flex: calc(20%-10px);
+    margin: 5px;
+    padding: 5px;
+    background: aqua;
+}
+.container:nth-child(2n) {
+    background: crimson;
+}
+.container > p {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+}
+.container-5 ul li > a {
+    font-size: 25px;
+}
+
