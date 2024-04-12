@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: Montserrat;
+    background-color: rgb(244, 244, 244);
+}
+.main-container {
+    padding: 10px;
+}
+.main-container_title {
+    text-align: center;
+}
+.main-container_title h1,
+.recipe h2,
+.main-container_procedure h2 {
+    text-transform: uppercase;
+}
+.main-container_title p{
+    font-style: italic;
+}
+.main-container_title {
+}
+.main-container_recipe {
+    display: flex;
+}
+.main-container_recipe img {
+    width: 900px;
+}
+.recipe {
+    margin: 0px 0px 0 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.recipe p {
+    font-weight: bold;
+}
+.main-container_procedure h2,
+.main-container_procedure p {
+    text-align: center;
+}
+.procedure_steps {
+    display: flex;
+    flex-wrap: wrap;
+}
+.step {
+    flex: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+}
