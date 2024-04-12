@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: flex;
+}
+.container {
+    width: 300px;
+    height: 300px;
+    flex: calc(20%-10px);
+    margin: 5px;
+    padding: 5px;
+}
+.container-1 {
+    background: rgb(255, 60, 60);
+}
+.container-2 {
+    background: rgb(53, 147, 255);
+}
+.container-3 {
+    background: greenyellow;
+}
+.container-4 {
+    background: orange;
+}
+.container-5 {
+    background: palevioletred;
+}
+h1, h2, h3, p {
+    font-size: 18px;
+}
+h1:hover, h2:hover,
+h3:hover, p:hover {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
