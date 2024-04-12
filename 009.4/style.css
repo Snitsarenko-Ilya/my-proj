@@ -1,0 +1,6 @@
+tr > td:nth-child(2n+1) {
+    background: greenyellow;
+}
+tr > td:nth-child(2n) {
+    background: yellow;
+}
