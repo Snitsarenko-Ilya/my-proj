@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label:hover {
+    cursor: pointer;
+}
+input {
+    margin: 5px 0 5px 0;
+    border: 1px solid black;
+    background: rgb(210, 210, 210);
+}
+input:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+input:focus {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+button {
+    width: 85px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(210, 210, 210);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+    width: 90px;
+    height: 27px;
+    font-size: 16px;
+    border: 2px solid black;
+}
