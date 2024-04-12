@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* -------------------------- */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(182, 182, 182);
+}
+li {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+a {
+    color: black;
+}
+.active {
+    color: darkred;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkred;
+}
