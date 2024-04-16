@@ -22,13 +22,16 @@ body {
 .block:nth-child(1) {
     background-color: #f83d3d;
     opacity: 0.7;
-    color: #34ff01
+    color: #34ff01;
+    border-color: #34ff01;
 }
 .block:nth-child(2) {
     background-color: #71ff35;
     color: #001bcc;
+    border-color: #001bcc;
 }
 .block:nth-child(3) {
     background-color: #005eff;
     color: #34ff01;
+    border-color: #34ff01;
 }
