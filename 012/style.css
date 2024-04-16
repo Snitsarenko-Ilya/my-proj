@@ -26,7 +26,7 @@ body {
     border-color: #34ff01;
 }
 .block:nth-child(2) {
-    background-color: #71ff35;
+    background-color: hsl(128, 72%, 53%);
     color: #001bcc;
     border-color: #001bcc;
     box-shadow: 5px 5px 20px #fff;
