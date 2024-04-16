@@ -21,6 +21,7 @@ body {
 }
 .block:nth-child(1) {
     background-color: #f83d3d;
+    opacity: 0.7;
 }
 .block:nth-child(2) {
     background-color: #71ff35;
