@@ -26,34 +26,9 @@ h2:first-of-type {
 h2:last-of-type {
     font-weight: 200;
 }
-/* Надеюсь я правильно понял про альтернативный шрифт, То что это тот, который мы подключили через Google Fonts */
-/* Так же я сделал второй подзаголовок не жирным, потому что они изначально на максимуме жирности */
 p {
     font-size: 25px;
 }
 p:first-of-type {
     font-weight: 700;
 }
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex { color: #05CBFC; }
-.My-Color-Theme-2-hex { color: #0D35FF; }
-.My-Color-Theme-3-hex { color: #057DFC; }
-.My-Color-Theme-4-hex { color: #8FFFF2; }
-.My-Color-Theme-5-hex { color: #5533FF; }
-.My-Color-Theme-6-hex { color: #0F83FF; }
-
-/* Color Theme Swatches in RGBA */
-.My-Color-Theme-1-rgba { color: rgba(5, 203, 252, 1); }
-.My-Color-Theme-2-rgba { color: rgba(13, 53, 255, 1); }
-.My-Color-Theme-3-rgba { color: rgba(5, 125, 252, 1); }
-.My-Color-Theme-4-rgba { color: rgba(143, 255, 242, 1); }
-.My-Color-Theme-5-rgba { color: rgba(85, 51, 255, 1); }
-.My-Color-Theme-6-rgba { color: rgba(15, 131, 255, 1); }
-
-/* Color Theme Swatches in HSLA */
-.My-Color-Theme-1-hsla { color: hsla(191, 97, 50, 1); }
-.My-Color-Theme-2-hsla { color: hsla(230, 100, 52, 1); }
-.My-Color-Theme-3-hsla { color: hsla(210, 97, 50, 1); }
-.My-Color-Theme-4-hsla { color: hsla(173, 100, 78, 1); }
-.My-Color-Theme-5-hsla { color: hsla(250, 100, 60, 1); }
-.My-Color-Theme-6-hsla { color: hsla(211, 100, 52, 1); }
