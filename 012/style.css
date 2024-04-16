@@ -29,6 +29,8 @@ body {
     background-color: #71ff35;
     color: #001bcc;
     border-color: #001bcc;
+    box-shadow: 5px 5px 20px #fff;
+    text-shadow: 5px 5px 10px #001bcc;
 }
 .block:nth-child(3) {
     background-color: #005eff;
