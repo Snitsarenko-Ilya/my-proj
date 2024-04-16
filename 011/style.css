@@ -7,6 +7,10 @@ body {
 }
 h1 {
     font-size: 60px;
+    font-style: italic; 
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: darkblue;
 }
 h2 {
     font-size: 35px;
