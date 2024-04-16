@@ -11,10 +11,12 @@ h1 {
     color: blue;
     font-size: 70px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 p {
     color: brown;
     font-size: 30px;
     font-weight: 500;
     line-height: 50px;
+    text-transform: capitalize;
 }
