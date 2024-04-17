@@ -22,7 +22,7 @@ body {
     border: 3px solid black;
     box-shadow: 5px 5px 50px 10px white;
 }
-.main div:last-of-type {
+.text {
     width: 50%;
     height: 250px;
     display: flex;
@@ -33,6 +33,7 @@ body {
     padding: 0px 20px;
     background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(204, 255, 0));
     border: 5px solid white;
+    box-shadow: 5px 5px 50px 15px rgb(255, 132, 1);;
 }
 h1 {
     font-size: 45px;
