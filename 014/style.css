@@ -19,9 +19,11 @@ body {
     background-color: white;
     background-image: url(./bg.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 p {
     color: white;
+    opacity: 0;
     text-align: center;
 }
 button {
