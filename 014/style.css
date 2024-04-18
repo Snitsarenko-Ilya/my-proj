@@ -34,3 +34,25 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
+.social-icons {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.icon {
+    width: 75px;
+    height: 73px;
+    background-image: url(./sc-md-ics-logo.jpeg);
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.social-fb {
+    background-position: -24px -144px;
+}
+.social-twit {
+    background-position: -150px -144px;
+}
+.social-inst {
+    background-position: -261px -144px;
+}
