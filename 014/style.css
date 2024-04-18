@@ -59,3 +59,22 @@ button {
 .social-inst {
     background-position: -261px -144px;
 }
+.decor {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://todor.academy/assets/rocket-02610776.svg);
+}
+.decor::before {
+    content: url(https://todor.academy/assets/rocket-02610776.svg);
+    position: relative;
+    left: -100px;
+    bottom: -10px;
+}
+.decor::after {
+    content: url(https://todor.academy/assets/rocket-02610776.svg);
+    position: relative;
+    right: -100px;
+    top: -112px;
+}
+/* Криво сделал, но ничего. Научимся! */
