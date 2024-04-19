@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(0, 4, 119), rgb(176, 1, 207));
+}
+.bg {
+    width: 840px;
+    height: 474px;
+    margin: 20px;
+    border: 2px solid white;
+    background-color: white;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 1150px) {
+    .bg {
+        width: 756px;
+        height: 426.6px;
+    }
+}
+@media (max-width: 900px) {
+    .bg {
+        width: 630px;
+        height: 355.5px;
+    }
+}
+@media (max-width: 690px) {
+    .bg {
+        width: 420px;
+        height: 237px;
+        margin: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .bg {
+        width: 336px;
+        height: 189.6px;
+        margin: 10px;
+    }
+}
