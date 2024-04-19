@@ -37,8 +37,12 @@ body {
     transition: transform 1s ease-in;
 }
 .box-3:hover {
-    transform: translate(100px, 50px)
+    transform: translate(100px, 50px);
 }
 .box-4 {
     background-color: #fb00ff;
+    transition: transform 1.5s ease-out;
+}
+.box-4:hover {
+    transform: skew(20deg, 30deg);
 }
