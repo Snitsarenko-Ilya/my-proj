@@ -42,6 +42,7 @@ body {
 }
 .box-3 img {
     width: 50%;
+    backdrop-filter: blur(20px) brightness(0.5);
 }
 
 .box:not(:last-child) {
