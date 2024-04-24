@@ -14,6 +14,7 @@ article {
     margin: 20px;
     border-radius: 20px;
     border: 4px solid white;
+    display: flow-root;
 }
 .box {
     width: 200px;
