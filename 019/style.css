@@ -58,7 +58,7 @@ body {
     border-radius: 50%;
 }
 .box-3 {
-    background-image: url(./Grindelwald.jpeg);
+    background-image: url(./Grindelwald.jpeg); /* Вже зробив ) */
     background-size: cover;
     filter: brightness(0.7);
     transition: scale 0.5s ease-in-out, box-shadow 0.5s ease;
