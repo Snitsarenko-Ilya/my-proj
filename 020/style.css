@@ -19,17 +19,19 @@ body {
 
 .box-1 {
     position: sticky;
-    left: 100px;
+    top: 224px;
 }
 .box-2 {
     position: relative;
-    left: 200px;
+    left: 220px;
 }
 .box-3 {
     position: absolute;
-    left: 300px;
+    left: 440px;
+    top: 214px;
 }
 .box-4 {
     position: fixed;
-    left: 600px
+    left: 660px;
+    bottom: 251px
 }
