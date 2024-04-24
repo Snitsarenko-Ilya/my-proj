@@ -41,6 +41,7 @@ body {
     background-image: linear-gradient(to bottom right, #ff0000, #ffae00);
     border: 5px dashed black;
 }
+/*-------------------------------------*/
 .box-2 .mini-box {
     display: flex;
     align-items: center;
@@ -52,6 +53,7 @@ body {
     background: black;
     color: white;
 }
+/*-------------------------------------*/
 .box-2 .mini-box:nth-child(2n-1) {
     border-radius: 10%;
 }
