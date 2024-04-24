@@ -18,10 +18,18 @@ body {
 }
 
 .box-1 {
+    position: sticky;
+    left: 100px;
 }
 .box-2 {
+    position: relative;
+    left: 200px;
 }
 .box-3 {
+    position: absolute;
+    left: 300px;
 }
 .box-4 {
+    position: fixed;
+    left: 600px
 }
