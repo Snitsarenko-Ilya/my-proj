@@ -20,6 +20,7 @@ body {
 .box:not(:last-child) {
     margin-right: 70px;
 }
+/* ---------------------------------------- */
 .box-1 {
     box-sizing: border-box;
     padding: 10px;
@@ -32,6 +33,7 @@ body {
     letter-spacing: 1px;
     font-weight: bold;
 }
+/* ---------------------------------------- */
 .box-2 {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +60,7 @@ body {
     border-radius: 50%;
 }
 .box-3 {
-    background-image: url(./Grindelwald.jpeg); /* Вже зробив ) */
+    background-image: url(./Grindelwald.jpeg);
     background-size: cover;
     filter: brightness(0.7);
     transition: scale 0.5s ease-in-out, box-shadow 0.5s ease;
