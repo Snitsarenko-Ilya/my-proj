@@ -20,13 +20,10 @@ body {
     border: 2px solid white;
 }
 .box-1 {
-    flex-grow: 1;
 }
 .box-2 {
-    flex-grow: 2;
 }
 .box-3 {
 }
 .box-4 {
-    flex-grow: 1;
 }
