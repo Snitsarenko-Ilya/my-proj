@@ -14,7 +14,8 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 900px;
     height: 600px;
     background-image: linear-gradient(to bottom right, rgb(145, 1, 255), rgb(255, 1, 132));
@@ -23,9 +24,6 @@ body {
     width: 150px;
     height: 150px;
     background-image: linear-gradient(to bottom right, rgb(5, 1, 255), rgb(1, 213, 255));
-}
-.box:nth-child(1) {
-    flex-grow: 1;
 }
 
 @media screen and (max-width: 600px) {
