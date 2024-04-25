@@ -25,6 +25,9 @@ body {
     height: 150px;
     background-image: linear-gradient(to bottom right, rgb(5, 1, 255), rgb(1, 213, 255));
 }
+.box:nth-child(2) {
+    flex-basis: 200px;
+}
 
 @media screen and (max-width: 600px) {
     .wrapper {
