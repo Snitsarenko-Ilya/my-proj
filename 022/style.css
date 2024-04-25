@@ -24,3 +24,6 @@ body {
     height: 150px;
     background-image: linear-gradient(to bottom right, rgb(5, 1, 255), rgb(1, 213, 255));
 }
+.box:nth-child(1) {
+    flex-grow: 1;
+}
