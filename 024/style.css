@@ -65,6 +65,7 @@ header {
 }
 .menu__item_focus {
     color: rgb(255, 242, 0);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1300) {
@@ -202,5 +203,15 @@ header {
     }
     .img__wrapper img {
         width: 250px;
+    }
+}
+
+/* ---------- MEDIA FOR LANDSCAPE ---------- */
+@media screen and (orientation: landscape) {
+    .header__container {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .img__wrapper img {
+        box-shadow: 3px 3px 10px 10px white;
     }
 }
