@@ -1,0 +1,11 @@
+// VARIABLES
+
+$primary-color: white;
+@mixin flex-and-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin border-styles($border-width) {
+    border: $border-width solid $primary-color;
+}
