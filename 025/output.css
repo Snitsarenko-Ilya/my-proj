@@ -45,14 +45,16 @@ body {
 header {
   width: 100%;
 }
-header .header__container {
+
+.header__container {
   min-height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 255, 0.3);
 }
-header .header__container .header__menu {
+
+.header__menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,13 +66,15 @@ header .header__container .header__menu {
 .menu__item:not(:last-child) {
   margin: 0px 80px 0px 0px;
 }
-.menu__item .menu__link {
+
+.menu__link {
   font-size: 23px;
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.menu__item .menu__item_focus {
+
+.menu__item_focus {
   color: rgb(255, 242, 0);
   text-decoration: underline;
 }
@@ -83,7 +87,15 @@ header .header__container .header__menu {
   border: 4px solid white;
   display: flow-root;
 }
-.section__article .section__img {
+.section__article:nth-child(2) .section__img {
+  float: right;
+  margin: 4px 4px 4px 10px;
+}
+.section__article:nth-child(2) .section__text {
+  margin-left: 10px;
+}
+
+.section__img {
   width: 200px;
   height: 200px;
   margin: 4px 10px 4px 4px;
@@ -93,14 +105,8 @@ header .header__container .header__menu {
   background-size: cover;
   float: left;
 }
-.section__article:nth-child(2) .section__img {
-  float: right;
-  margin: 4px 4px 4px 10px;
-}
-.section__article:nth-child(2) .section__text {
-  margin-left: 10px;
-}
-.section__article .section__text {
+
+.section__text {
   font-size: 18px;
   color: white;
   margin-right: 10px;
@@ -114,7 +120,8 @@ header .header__container .header__menu {
   align-content: center;
   padding: 40px 0px;
 }
-.img__container .img__wrapper img {
+
+.img__wrapper img {
   width: 500px;
   border-radius: 5%;
   border: 3px solid white;
