@@ -36,6 +36,11 @@
     .menu__item:not(:last-child) {
         margin: 0px 0px 20px 0px;
     }
+    @for $i from 1 through 4 {
+        .link-#{$i} {
+            font-size: 27px - (3px * $i);
+        }
+    }
 }
 
 /* --------------- MAIN-SECTION --------------- */

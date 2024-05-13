@@ -164,6 +164,18 @@ header {
   .menu__item:not(:last-child) {
     margin: 0px 0px 20px 0px;
   }
+  .link-1 {
+    font-size: 24px;
+  }
+  .link-2 {
+    font-size: 21px;
+  }
+  .link-3 {
+    font-size: 18px;
+  }
+  .link-4 {
+    font-size: 15px;
+  }
 }
 /* --------------- MAIN-SECTION --------------- */
 @media screen and (max-width: 670px) {
