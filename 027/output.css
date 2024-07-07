@@ -41,6 +41,29 @@ body {
   box-sizing: content-box;
 }
 
+/* Atomic */
+.d-f {
+  display: flex;
+}
+.jc-c {
+  justify-content: center;
+}
+.ai-c {
+  align-items: center;
+}
+.bg-c {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.tc-primary {
+  color: white;
+}
+.tc-focus {
+  color: rgb(255, 242, 0);
+}
+.ts-focus {
+  text-decoration: underline;
+}
+
 /* --------------- HEADER --------------- */
 header {
   width: 100%;
@@ -48,16 +71,6 @@ header {
 
 .header__container {
   min-height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 255, 0.3);
-}
-
-.header__menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .menu__item {
@@ -69,14 +82,8 @@ header {
 
 .menu__link {
   font-size: 23px;
-  color: white;
   font-weight: bold;
   letter-spacing: 1px;
-}
-
-.menu__item_focus {
-  color: rgb(255, 242, 0);
-  text-decoration: underline;
 }
 
 /* --------------- MAIN-SECTION --------------- */
@@ -114,9 +121,6 @@ header {
 
 /* --------------- IMG-CONTAINER --------------- */
 .img__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   align-content: center;
   padding: 40px 0px;
 }
