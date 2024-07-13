@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+        <rect x="15" y="30" width="150" height="150" stroke="#000" fill="#f10156" />
+        <circle cx="170" cy="150" r="100" stroke="#000" fill="#219859" />
+        <polygon points="0,100 55,30 45,80 110,5" fill="#000" />
+        <path d="m64 64c0 17.673 14.327 32 32 32 l10 20 20 40 40" fill="gold" />
+        <text x="40" y="35" class="heavy" fill="purple" style="font-size: 40px;">My name is Illia</text>
+        <defs>
+            <circle id="myCircle" cx="220" cy="150" r="70" stroke="#000"/>
+        
+            <linearGradient id="myGradient" gradientTransform="rotate(90)">
+                <stop offset="10%" stop-color="purple"/>
+                <stop offset="90%" stop-color="blue"/>
+            </linearGradient>
+        </defs>
+        
+        <use x="5" y="5" href="#myCircle" fill="url('#myGradient')"/>
+        <circle cx="100" cy="150" r="60" fill="none" stroke="#000" stroke-width="3">
+            <animate attributeName="r" values="5;60;30;50" dur="3s" repeatCount="indefinite"/>
+        </circle>   
+    </svg>
+</body>
+</html>
