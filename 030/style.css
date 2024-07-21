@@ -28,9 +28,21 @@ body {
     background-position: center center;
     background-size: cover;
 }
+@media screen and (max-width: 1300px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 .box-1 {
     background-image: url('/030/img/doberman.webp');
     background-image: url('/030/img/doberman.jpg');
+}
+@media screen and (max-width: 768px) {
+    .box-1 {
+        background-image: url('/030/img/doberman@2x.webp');
+        background-image: url('/030/img/doberman@2x.jpg');
+    }
 }
 .box-2 img {
     width: 100%;
